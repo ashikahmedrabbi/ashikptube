@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.7/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>ph tube</title>
+</head>
+<style>
+    .active-tab {
+        background-color: red;
+        color: white;
+
+    }
+</style>
+
+
+<body>
+
+    <nav class="container mx-auto my-4">
+        <div class="navbar bg-base-100 mb-4">
+            <div class="navbar-start">
+
+                <a class="btn btn-ghost normal-case text-xl"><img src="./Logo.png" alt=""></a>
+            </div>
+            <div class="navbar-center ">
+                <button class=" btn" id="sortbtn">Sort by view</button>
+            </div>
+            <div class="navbar-end">
+
+                <a href="blog.html" class="btn bg-red-600">Blog</a>
+            </div>
+
+        </div>
+
+        <hr class="pt-6">
+
+        <section class=" text-center w-96 m-auto">
+
+            <div id="category_container" class="tabs tabs-boxed flex justify-around ">
+
+
+            </div>
+        </section>
+    </nav>
+    <div id="blog_container" class="container mx-8 max-w-fit  lg:mx-14  m-auto font-medium text-lg">
+
+    </div>
+    <main class="container mx-auto">
+        <div id="vedio_container" class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+
+
+
+
+        </div>
+
+        <div id="no_vedio" class="text center h-72 w-96  m-auto">
+
+
+
+
+
+        </div>
+
+
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

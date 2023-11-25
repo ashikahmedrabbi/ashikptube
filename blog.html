@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.7/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Blog</title>
+</head>
+
+<body>
+    <div class="container mx-auto my-4 lg:px-40 mt-20">
+
+        <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">
+                Discuss the scope of var, let, and const
+            </div>
+            <div class="collapse-content">
+                <p>Var: Variables that are declared using var are accessible throughout the function for which they are
+                    declared, and they have function scope. Var declarations can also be utilized before they are
+                    actually declared in the code since they are hoisted. <br>let: Variables declared with let have
+                    block scope, which restricts their visibility to the block in which they are specified. This is
+                    different from var. Moreover, make sure statements are accessible only after their point of
+                    declaration by not hoisting them. <br> Const: Const offers block scope for variables, much like let.
+                    Const, on the other hand, prohibits reassignment following the first assignment, going one step
+                    further. The variable's value cannot be altered once set, even though the variable itself is not
+                    unchangeable.
+                </p>
+            </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200 my-6">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+                Tell us the use cases of null and undefined
+            </div>
+            <div class="collapse-content">
+                <p>Null: Applied to variables to indicate an intentional lack of value or to properties that are
+                    purposefully left without a meaningful value, null is frequently used to represent the explicit
+                    absence of any object value. <br>Undefined: This default state, which is automatically assigned to
+                    variables that have been declared but not given a value, denotes the lack of a value. It frequently
+                    occurs while trying to access properties of nonexistent objects or when functions fail to return a
+                    value.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+                What do you mean by REST API?
+            </div>
+            <div class="collapse-content">
+                <p>REST API is an architectural style emphasizing stateless communication, where each client request
+                    contains all necessary information. Resources, identified by URIs, are manipulated using standard
+                    HTTP methods (GET, POST, PUT, DELETE). Representations in formats like JSON or XML facilitate
+                    interaction, and the stateless nature of operations ensures each request is independent, enhancing
+                    scalability and maintainability.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
